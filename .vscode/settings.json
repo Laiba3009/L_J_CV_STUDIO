@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./resume-builder",
+        "./resume_builder"
+    ]
+}

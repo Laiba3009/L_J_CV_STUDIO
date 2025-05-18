@@ -1,0 +1,5 @@
+streamlit
+stripe
+jinja2
+xhtml2pdf
+
