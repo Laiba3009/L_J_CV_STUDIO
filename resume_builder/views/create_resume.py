@@ -37,6 +37,11 @@ def show():
         else:
             st.error("❌ PDF generation failed. Please try again.")
 
+    # ... rest of your code
+
+    # ... rest of your code
+
+
 
 def render_template(template_name, context):
     from jinja2 import Environment, FileSystemLoader
@@ -44,3 +49,6 @@ def render_template(template_name, context):
     TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "../templates")
     env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
     return env.get_template(template_name).render(context)
+
+
+    # ... rest of your code
