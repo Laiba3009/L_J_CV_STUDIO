@@ -11,7 +11,7 @@ import os
 sys.path.append(os.path.abspath("."))
 
 # Page config
-st.set_page_config(page_title="AI Resume Builder", layout="centered")
+st.set_page_config(page_title="L.J Resume Builder", layout="centered")
 
 # --- Top-Left Logo Display ---
 def show_top_left_logo():
